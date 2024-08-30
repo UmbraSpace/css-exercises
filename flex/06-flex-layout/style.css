@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -35,9 +36,20 @@ input {
   gap: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.footer {
+  background-color: rgb(233, 233, 233);
 }
 
 .content {
